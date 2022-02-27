@@ -1,0 +1,53 @@
+body {
+   
+   
+}
+p {
+  color: black;
+}
+h1 {
+  font-weight: bold;
+}
+H2 {
+Margin-left:20%;
+}
+H3 {
+Margin-left:20%;
+}
+Label{Font-size:50px;
+}
+.Vdaylink{font-size:35px;
+} 
+.Poem{font-size:35px;
+}
+li{color:aquamarine;}
+img{width:200px; 
+border: 5px solid black;}
+.column {
+  float: left;
+ width:250px;
+ height:400px;
+  padding: 30px;
+ img{
+     height:400px;
+    }
+}
+.cat{
+ width:400px;
+Margin-left:15%;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+.hidden{
+display:none;}

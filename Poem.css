@@ -1,0 +1,70 @@
+body {
+   
+    Background:gray;  
+   }
+   .maybe {
+     color: pink;
+   text-align: center;
+   Margin-left: 35%;
+   Margin-bottom: 200px;
+   Width:30%;
+   }
+   .This{
+   color: pink;
+   text-align: center;
+   Margin-left: 20%;
+   Margin-bottom: 200px;
+   Width:60%;}
+   h1 {
+     font-weight: bold;
+   text-align: center;
+   Color:black;
+   }
+   .us {
+   li {
+       color:aquamarine;
+    }
+   }
+   .redheart
+   
+   {
+   width:400px; 
+   
+   
+   
+   Margin-left: 4%;
+   
+   Margin-bottom: 200px;
+   }
+   .rainbow{
+   width:250px;
+   Margin-left:41%;
+   }
+   .butterfly{
+   Width:250px;
+   Margin-left : 41%;
+   }
+   .column {
+     float: left;
+    width:250px;
+    height:400px;
+     padding: 30px;
+    img {
+        height:400px;
+    }
+   }
+   
+   /* Clear floats after image containers */
+   .row::after {
+     content: "";
+     clear: both;
+     display: table;
+   }
+   .row {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 75%;
+   }
+   .hidden{
+   display:none;}
